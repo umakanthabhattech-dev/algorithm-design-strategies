@@ -1,0 +1,39 @@
+unbounded Knapsack Is ?
+You are given n items, each with a weight and a value.
+You can take an item multiple times.
+The goal is to maximize total value without exceeding the knapsack’s capacity
+
+bounded Knapsack Is ?
+You are given n items, each with a weight and a value.
+Each item has a limited quantity.
+The goal is to maximize total value without exceeding the knapsack’s capacity
+
+fractional Knapsack Is ?
+You are given n items, each with a weight and a value.
+You can take fractions of an item.
+The goal is to maximize total value without exceeding the knapsack’s capacity.
+
+| Type                | Key Idea                 |
+| ------------------- | ------------------------ |
+| 0-1 Knapsack        | Take once or not         |
+| Bounded Knapsack    | Take up to k times       |
+| Unbounded Knapsack  | Take unlimited times     |
+| Fractional Knapsack | Take fractions (Greedy)  |
+| Group Knapsack      | Pick one from each group |
+| Multi-Dimensional   | More than one constraint |
+
+
+Knapsack Problems
+│
+├── Discrete (no fractions)
+│   ├── 0-1 Knapsack        (0 or 1 time)
+│   ├── Bounded Knapsack    (0 to k times)
+│   ├── Unbounded Knapsack  (0 to ∞ times)
+│   ├── Multiple Knapsack
+│   ├── Multi-Dimensional Knapsack
+│   ├── Group Knapsack
+│   ├── Knapsack with Dependencies
+│   └── Count / Feasibility Knapsack
+│
+└── Continuous
+    └── Fractional Knapsack
